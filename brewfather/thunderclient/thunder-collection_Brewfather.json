@@ -1,0 +1,378 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Brewfather",
+    "dateExported": "2022-04-29T17:23:58.257Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "dfdb6f2e-21a8-4a9d-b5db-e6ff36d8ae17",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Batches",
+            "url": "{{base_url}}/batches",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-04-29T17:03:25.299Z",
+            "modified": "2022-04-29T17:22:38.795Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "443b0969-1d03-4791-8880-2207fc2fab45",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Batch",
+            "url": "{{base_url}}/batches/<batch id>",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-04-29T17:03:25.300Z",
+            "modified": "2022-04-29T17:09:02.574Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "817a8267-a381-4260-8a29-701c8ac062a2",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Batch Last Reading",
+            "url": "{{base_url}}/batches/<batch id>/readings/last",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2022-04-29T17:03:25.301Z",
+            "modified": "2022-04-29T17:03:25.301Z",
+            "headers": [],
+            "params": []
+        },
+        {
+            "_id": "d5f58514-be23-4aef-ac22-779a472be1ae",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Batch All Readings",
+            "url": "{{base_url}}/batches/<batch id>/readings",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-04-29T17:03:25.302Z",
+            "modified": "2022-04-29T17:03:25.302Z",
+            "headers": [],
+            "params": []
+        },
+        {
+            "_id": "267dd771-1abe-425d-b201-6be4b349640f",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Batch Brew Tracker",
+            "url": "{{base_url}}/batches/<batch id>/brewtracker",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2022-04-29T17:03:25.303Z",
+            "modified": "2022-04-29T17:03:25.303Z",
+            "headers": [],
+            "params": []
+        },
+        {
+            "_id": "fdff3b10-0735-4979-80d4-ac87d1d2bcad",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Recipes",
+            "url": "{{base_url}}/recipes",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2022-04-29T17:03:25.304Z",
+            "modified": "2022-04-29T17:03:25.304Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "complete",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "offset",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "989b3eea-4e1c-4f41-a7e2-7a23d990f7c1",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Recipe",
+            "url": "{{base_url}}/recipes/<recipe id>",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2022-04-29T17:03:25.305Z",
+            "modified": "2022-04-29T17:03:25.305Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "da468942-3c77-41d5-aeff-1f8e36d61be3",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Fermentables",
+            "url": "{{base_url}}/inventory/fermentables",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2022-04-29T17:03:25.307Z",
+            "modified": "2022-04-29T17:03:25.307Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "inventory_negative",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "complete",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "inventory_exists",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "offset",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "6f3d8b94-080e-4a1c-8635-c7940d8975e5",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Fermentable",
+            "url": "{{base_url}}/inventory/fermentables/<fermentable id>",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2022-04-29T17:03:25.308Z",
+            "modified": "2022-04-29T17:03:25.308Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "0f94efb0-d844-4573-82e1-78713573c1e1",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Hops",
+            "url": "{{base_url}}/inventory/hops",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2022-04-29T17:03:25.309Z",
+            "modified": "2022-04-29T17:03:25.309Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "complete",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "inventory_exists",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "offset",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "62c9cb8c-590e-499f-8e89-d57bef458932",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Hop",
+            "url": "{{base_url}}/inventory/hops/<hop id>",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2022-04-29T17:03:25.310Z",
+            "modified": "2022-04-29T17:03:25.310Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "b440c4ea-d3f0-4387-8c96-c0a5d220c8f4",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Miscs",
+            "url": "{{base_url}}/inventory/miscs",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2022-04-29T17:03:25.311Z",
+            "modified": "2022-04-29T17:03:25.311Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "complete",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "inventory_exists",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "offset",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "1c282c1d-9553-4553-adf6-4694c68470da",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Misc",
+            "url": "{{base_url}}/inventory/miscs/<misc id>",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2022-04-29T17:03:25.312Z",
+            "modified": "2022-04-29T17:03:25.312Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "b84d55ca-273e-441a-b041-396c65c7edbe",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Yeasts",
+            "url": "{{base_url}}/inventory/yeasts",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2022-04-29T17:03:25.313Z",
+            "modified": "2022-04-29T17:03:25.313Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "complete",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "inventory_exists",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "offset",
+                    "value": "",
+                    "isDisabled": true
+                },
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "3dbe7404-1ab0-437a-be9d-d8d94572fe79",
+            "colId": "5dbf160c-a816-4692-a494-ef73761ae999",
+            "containerId": "",
+            "name": "Inventory Yeast",
+            "url": "{{base_url}}/inventory/yeasts/<yeast id>",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2022-04-29T17:03:25.314Z",
+            "modified": "2022-04-29T17:03:25.314Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "include",
+                    "value": "",
+                    "isDisabled": true
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "headers": [],
+        "auth": {
+            "type": "basic",
+            "basic": {
+                "username": "changeme",
+                "password": "changeme"
+            }
+        },
+        "tests": [],
+        "envId": "6973067e-05af-4411-884b-1e496f37b286"
+    }
+}

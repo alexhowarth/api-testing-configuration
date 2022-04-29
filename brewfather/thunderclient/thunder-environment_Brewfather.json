@@ -1,0 +1,12 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "Brewfather",
+    "dateExported": "2022-04-29T17:29:20.383Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "base_url",
+            "value": "https://api.brewfather.app/v1"
+        }
+    ]
+}
